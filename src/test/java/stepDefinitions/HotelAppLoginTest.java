@@ -17,6 +17,7 @@ public class HotelAppLoginTest {
 	    // Write code here that turns the phrase above into concrete actions
 	    driver = new ChromeDriver();
 	    driver.get("https://adactinhotelapp.com/index.php");
+	    driver.manage().window().maximize();
 	}
 
 	@When("user Enter username as {string}")
