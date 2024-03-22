@@ -16,6 +16,7 @@ public class HotelAppLoginTest {
 	public void i_am_on_the_hotel_app_login_page() {
 	    // Write code here that turns the phrase above into concrete actions
 	    driver = new ChromeDriver();
+	    System.out.println("made changes");
 	    driver.get("https://adactinhotelapp.com/index.php");
 	    driver.manage().window().maximize();
 	}
